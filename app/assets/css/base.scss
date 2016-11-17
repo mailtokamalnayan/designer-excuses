@@ -122,7 +122,7 @@ body {
 .main-body {
     height: 100vh;
     h1 {
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
         font-weight: 500;
         margin-top: 3rem;
@@ -136,8 +136,8 @@ body {
     h2 {
         margin-top: 0;
         font-size: 2.369rem;
-        font-family: 'Yeseva One', sans-serif;
-        font-weight: 100;
+        font-family: 'Scope One', serif;
+        font-weight: normal;
         line-height: 1.2;
         position: relative;
         &:before {
@@ -146,7 +146,7 @@ body {
             position: absolute;
             font-family: Georgia;
             top: -0.4rem;
-            left: -1.75rem;
+            left: -1.45rem;
             opacity: 0.2;
         }
     }
