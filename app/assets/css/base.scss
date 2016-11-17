@@ -119,6 +119,37 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.share-twitter {
+    svg { 
+        width: 18px; 
+        height: 18px;
+        opacity: 1;
+        path {
+            fill: rgba(0, 0, 0, 0.2);
+        }
+    }
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0.65rem;
+    color: inherit;
+    border-radius: 3px;
+    transition: background 0.25s ease-in-out;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    .share-title { 
+        opacity: 0.6; 
+        display: none;
+        @media screen and (min-width: 768px) {
+            display: inline-block;
+        }
+    }
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    
+}
 .main-body {
     height: 100vh;
     h1 {
