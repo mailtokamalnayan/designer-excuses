@@ -132,7 +132,7 @@ body {
     h2 {
         margin-top: 0;
         font-size: 2.369rem;
-        font-family: "Futura", sans-serif;
+        font-family: 'Yeseva One', sans-serif;
         font-weight: 100;
         line-height: 1.2;
         position: relative;
@@ -167,6 +167,9 @@ body {
             margin-top: 0.5rem;
             a {
                 color: inherit;
+                &:hover {
+                    text-decoration: none;
+                }
             }
         }
     }
