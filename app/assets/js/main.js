@@ -3,7 +3,8 @@ function getRandomArbitrary(min, max) {
 }
 function fillData() {
     $.getJSON( "data.json", function( json ) {
-      $("h2").html(json.items[ getRandomArbitrary(0, 14) ].excuse );
+      $(".excuse").html(json.items[ getRandomArbitrary(0, 99) ].excuse );
+      $(".number").html( getRandomArbitrary(0, 99) );
     });
 }
 $(function() {

@@ -46,6 +46,6 @@ gulp.task('dev', ['html'], function() {
 gulp.task('deploy', function() {
   return gulp.src('./build/**/*')
     .pipe(ghPages({
-        'remoteUrl' : 'git@github.com:ghosh/awesome-podcasts.git'
+        'remoteUrl' : 'git@github.com:mailtokamalnayan/designer-excuses.git'
     }));
 });

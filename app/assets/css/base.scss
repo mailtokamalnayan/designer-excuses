@@ -124,10 +124,14 @@ body {
     h1 {
         font-size: 1rem;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 500;
         margin-top: 3rem;
         margin-bottom: 2rem;
         opacity: 0.4;
+        a { 
+            text-decoration: none; 
+            color: inherit;
+        }
     }
     h2 {
         margin-top: 0;
@@ -137,10 +141,10 @@ body {
         line-height: 1.2;
         position: relative;
         &:before {
-            content: ' " ';
+            content: ' “ ';
             font-size: 3rem;
             position: absolute;
-            font-family: cursive;
+            font-family: Georgia;
             top: -0.4rem;
             left: -1.75rem;
             opacity: 0.2;
