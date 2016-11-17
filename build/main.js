@@ -1,0 +1,1 @@
+function getRandomArbitrary(t,n){return Math.floor(Math.random()*(n-t))+t}function fillData(){$.getJSON("data.json",function(t){$("h2").html(t.items[getRandomArbitrary(0,14)].excuse)})}$(function(){fillData()}),$("button").click(function(t){t.preventDefault(),fillData()}),$(window).keypress(function(t){0!=t.keyCode&&32!=t.keyCode||fillData()});

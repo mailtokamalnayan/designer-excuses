@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "excuse": "This is what Apple does.",
+            "regarding": "Inspiration"
+        },
+        {
+            "excuse": "It’s a Material Design thing.",
+            "regarding": "Inspiration"
+        },
+        {
+            "excuse": "_____ does it like this, and they have like 500M users.",
+            "regarding": "Inspiration"
+        },
+        {
+            "excuse": "This is how everyone does it. We should do it this way.",
+            "regarding": "Inspiration"
+        },
+        {
+            "excuse": "This is how everyone does it. We shouldn't do it this way.",
+            "regarding": "Inspiration"
+        },
+        {
+            "excuse": "I wanted to try something different.",
+            "regarding": "Design"
+        },
+        {
+            "excuse": "I saw a design on Tumblr that looks like this.",
+            "regarding": "Design"
+        },
+        {
+            "excuse": "Whitespace looks better. It looks so clean!",
+            "regarding": "Design"
+        },
+        {
+            "excuse": "We’re industry leaders. Sometimes you just have to take risks.",
+            "regarding": "Design"
+        },
+        {
+            "excuse": "That must be an older version you’re seeing.",
+            "regarding": "Design"
+        },
+        {
+            "excuse": "I [got a Masters/did online training/saw a tweet], so trust me on this.",
+            "regarding": "Design"
+        },
+        {
+            "excuse": " I just read* a great article on Medium about this <em>(*saw the title).</em>",
+            "regarding": "Design"
+        },
+        {
+            "excuse": "We’ll just revisit this after the launch (we won’t).",
+            "regarding": "Design"
+        },
+        {
+            "excuse": "Our team loved the design.",
+            "regarding": "Design"
+        },
+        {
+            "excuse": "[The most important stakeholder] loved the design.",
+            "regarding": "Design"
+        }
+    ]
+}
