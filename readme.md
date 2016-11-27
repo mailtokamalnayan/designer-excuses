@@ -4,3 +4,8 @@ Designer Excuses is a list of handy excuses that designers give (or can give). T
 ## Contributing
 You can contribute by adding a new excuse or by making the code better. The app is Gulp powered. You can add your excuse in the `data.json` file. Looking forward to your PRs.
 
+## Install
+
+1. Clone the repository
+2. Run `npm install` to setup Gulp dependencies
+3. Run `gulp dev` to spin up a local build and development server
